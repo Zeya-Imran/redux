@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main__table{
+  min-width: 90%;
+  width: 30%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.main__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__table th{
+  background-color: #f2f2f2;
+}
+.main__table th,
+.main__table td {
+  border: 1px solid #ddd;
+}
+
+.main__counter__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0; 
+}
+
+.inside__container {
+  display: flex;
+  gap: 10px; 
+  margin-top: 20px; 
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #1d1d1d;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.counter__main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  min-height: 100vh;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.counter__innermain{
+display: flex;
+align-items: center;
+justify-items: center;
+gap: 20px;
+}
+
+.counter__actionbutton{
+  display: flex;
+align-items: center;
+justify-items: center;
+gap: 20px;
+}
